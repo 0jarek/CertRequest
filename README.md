@@ -1,10 +1,12 @@
-# PowerShell
-Personal PowerShell Script collection
+# CertRequest
+Fork https://github.com/J0F3/PowerShell
 
 ## Content:
-* **StorageReplica/New-StretchedFileCluster.ps1:**  
-Simple Script to build a virtual two node, stretched, general purpose file server cluster with storage replica
 
 * **Request-Certificate.ps1**  
-Request certificates from a Enterprise CA and export it optionally directly to a .pfx file.  
-Head over to the [TechNet Script Center](https://gallery.technet.microsoft.com/scriptcenter/Request-certificates-from-b6a07151) for more information.
+Request certificates from a Enterprise CA and export it optionally directly to a .pfx file.
+one change to orginal, added FriendlyName.
+
+
+* **StorageReplica/New-StretchedFileCluster.ps1:**  
+Simple Script to build a virtual two node, stretched, general purpose file server cluster with storage replica
